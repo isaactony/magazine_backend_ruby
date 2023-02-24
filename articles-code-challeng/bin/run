@@ -1,0 +1,42 @@
+#!/usr/bin/env ruby
+
+require_relative '../config/environment'
+
+isaac = Author.new("isaac")
+tonyloi = Author.new("tonyloi")
+mongare = Author.new("mongare")
+
+pulse = Magazine.new("Pulse", "fashion")
+daily = Magazine.new("Daily", "daily")
+standard = Magazine.new("Standard", "standard")
+
+tonyloi.add_article(pulse, "Elections")
+tonyloi.add_article(daily, "Sports")
+tonyloi.add_article(pulse, "Baba The 6th")
+
+mongare.add_article(pulse, "Sports")
+mongare.add_article(pulse, "Sports")
+
+isaac.add_article(pulse, "Elections")
+isaac.add_article(pulse, "Sports")
+isaac.add_article(pulse, "Baba The 6th")
+isaac.add_article(daily, "Justice")
+isaac.add_article(standard, "Justice")
+
+# pp Article.all.length
+
+# pp isaac.articles.length
+pp standard.contributing_authors
+# pp pulse.article_titles
+# pp Magazine.find_by_name("Pulse")
+
+# p pulse.article_titles
+# p daily.article_titles
+# p standard.article_titles
+
+# pp isaac.magazines
+# pp tonyloi.magazines
+# pp isaac.topic_areas
+# pp tonyloi.topic_areas
+
+# pp standard.contributors
