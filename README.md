@@ -1,5 +1,5 @@
 # magazine_backend_ruby
-
+   
 
 - This App is is a Ruby application with the following classes:
 
