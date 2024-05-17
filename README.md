@@ -12,7 +12,7 @@ The Article class has an initialize method that takes author, magazine, and titl
 Together, these classes and their methods allow us to model relationships between authors, magazines, and articles, and retrieve information about them. The classes can be used to create and manipulate objects in Ruby, and can also be used with a database and ORM like ActiveRecord to persist and retrieve data.   
 
 
-   
+      
 # Development requirements
 - Ruby
 - r spec
