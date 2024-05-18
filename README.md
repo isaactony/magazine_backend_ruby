@@ -9,7 +9,7 @@ The Magazine class has an initialize method that takes name and category argumen
 
 The Article class has an initialize method that takes author, magazine, and title arguments and sets instance variables @author, @magazine, and @title to those values. It also has title, author, and magazine methods that return the title, author, and magazine of the article, respectively.
    
-Together, these classes and their methods allow us to model relationships between authors, magazines, and articles, and retrieve information about them. The classes can be used to create and manipulate objects in Ruby, and can also be used with a database and ORM like ActiveRecord to persist and retrieve data.   
+Together, these classes and their methods allow us to model relationships between authors, magazines, and articles, and retrieve information about them. The classes can be used to create and manipulate objects in Ruby, and can also be used with a database and ORM like ActiveRecord to persist and retrieve data.      
 
 
       
